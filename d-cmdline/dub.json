@@ -1,0 +1,10 @@
+{
+	"name": "lz4d-cmdline",
+	"description": "LZ4D compress/decompress command-line application",
+	"copyright": "Copyright © 2015, Jakub Szewczyk",
+	"authors": ["Jakub Szewczyk"],
+	"targetType": "executable",
+	"dependencies": {
+		"lz4d": "~master"
+	}
+}

@@ -365,7 +365,6 @@ private int LZ4_compress_generic(
 	switch(dict)
 	{
 	case noDict:
-	default:
 		base = cast(const(ubyte)*)source;
 		lowLimit = cast(const(ubyte)*)source;
 		break;
@@ -375,6 +374,10 @@ private int LZ4_compress_generic(
 		break;
 	case usingExtDict:
 		base = cast(const(ubyte)*)source - dictPtr.currentOffset;
+		lowLimit = cast(const(ubyte)*)source;
+		break;
+	default:
+		base = cast(const(ubyte)*)source;
 		lowLimit = cast(const(ubyte)*)source;
 		break;
 	}
