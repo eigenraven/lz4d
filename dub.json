@@ -1,0 +1,11 @@
+{
+   "name":"lz4d",
+   "description":"LZ4 compression algorithm D implementation (ported from C)",
+   "authors":[
+      "Yann Collet",
+      "Jakub Szewczyk - porting"
+   ],
+   "homepage":"https://github.com/Cyan4973/lz4",
+   "license":"MIT",
+   "targetType":"library"
+}
