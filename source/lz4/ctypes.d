@@ -3,8 +3,8 @@
 */
 module lz4.ctypes;
 
-private import std.c.stdlib;
-private import std.c.string;
+private import core.stdc.stdlib;
+private import core.stdc.string;
 private import std.exception;
 
 alias ALLOCATOR = calloc;
