@@ -87,7 +87,7 @@ private bool likely(bool v)
 
 private bool unlikely(bool v)
 {
-	return (v==false);
+	return (v!=false);
 }
 
 /* *************************************
