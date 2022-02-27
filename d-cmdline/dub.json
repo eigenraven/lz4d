@@ -5,6 +5,6 @@
 	"authors": ["Jakub Szewczyk"],
 	"targetType": "executable",
 	"dependencies": {
-		"lz4d": "~master"
+		"lz4d": { "path": ".." }
 	}
 }

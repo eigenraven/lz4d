@@ -7,5 +7,8 @@
    ],
    "homepage":"https://github.com/Cyan4973/lz4",
    "license":"MIT",
-   "targetType":"library"
+   "targetType":"library",
+
+   "importPaths": ["source"],
+   "sourcePaths": ["source"]
 }

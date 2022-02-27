@@ -35,8 +35,8 @@
 */
 module lz4.lz4;
 
-private import std.c.stdlib;
-private import std.c.string;
+private import core.stdc.stdlib;
+private import core.stdc.string;
 private import std.system;
 private import std.bitmanip;
 private import lz4.ctypes;
@@ -87,7 +87,7 @@ private bool likely(bool v)
 
 private bool unlikely(bool v)
 {
-	return (v==false);
+	return (v!=false);
 }
 
 /* *************************************
